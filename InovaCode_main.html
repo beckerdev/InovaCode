@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>InovaCode — Tecnologia que transforma ideias em soluções</title>
+  <meta name="description" content="InovaCode: desenvolvimento de software, soluções SaaS e consultoria em transformação digital." />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Pequenas customizações */
+    .glass { background: rgba(255,255,255,0.06); backdrop-filter: blur(6px); }
+  </style>
+</head>
+<body class="antialiased bg-gray-900 text-gray-100">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-gradient-to-r from-slate-900 to-slate-800/80 border-b border-slate-700/40">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a class="flex items-center gap-3" href="#">
+        <div class="w-10 h-10 rounded-lg bg-gradient-to-r from-indigo-500 to-pink-500 flex items-center justify-center font-bold">IC</div>
+        <div>
+          <div class="text-lg font-semibold">InovaCode</div>
+          <div class="text-xs text-slate-300">Tecnologia que transforma ideias em soluções</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex gap-6 items-center text-sm">
+        <a href="#servicos" class="hover:underline">Serviços</a>
+        <a href="#produto" class="hover:underline">Produto</a>
+        <a href="#simulador" class="hover:underline">Simulador</a>
+        <a href="#contato" class="hover:underline">Contato</a>
+        <a href="#" class="px-4 py-2 bg-indigo-600 rounded-md text-white shadow">Solicitar proposta</a>
+      </nav>
+      <button class="md:hidden" aria-label="abrir menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-6xl mx-auto px-6 py-14 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Soluções de software que impulsionam seu negócio</h1>
+      <p class="mt-4 text-slate-300">Na InovaCode desenvolvemos aplicações sob medida, plataformas SaaS e integrações inteligentes para empresas que buscam eficiência, escalabilidade e inovação.</p>
+      <div class="mt-6 flex gap-4">
+        <a href="#simulador" class="px-6 py-3 bg-indigo-600 rounded-md shadow font-medium">Simule um orçamento</a>
+        <a href="#contato" class="px-6 py-3 border border-slate-600 rounded-md">Fale com o time</a>
+      </div>
+
+      <div class="mt-8 grid grid-cols-2 gap-3 text-sm text-slate-300">
+        <div class="glass p-4 rounded">SaaS personalizados</div>
+        <div class="glass p-4 rounded">Integrações & APIs</div>
+        <div class="glass p-4 rounded">Consultoria em IA</div>
+        <div class="glass p-4 rounded">Suporte e manutenção</div>
+      </div>
+    </div>
+    <div class="mx-auto">
+      <!-- Mockup area -->
+      <div class="w-full max-w-md mx-auto bg-gradient-to-br from-slate-800/60 to-slate-700/30 rounded-2xl p-6">
+        <div class="h-64 rounded-lg bg-gradient-to-br from-indigo-900 to-slate-800 flex items-center justify-center text-slate-300">Mockup do produto / protótipo</div>
+        <div class="mt-4 text-slate-400 text-sm">Prototipagem rápida com Figma / Framer. Chatbot de atendimento e simulador de orçamento integrados.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="bg-gradient-to-b from-transparent to-slate-950/40 border-t border-slate-800/50 py-12">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl font-bold">Nossos Serviços</h2>
+      <p class="text-slate-300 mt-2">Soluções modulares pensadas para cada etapa da transformação digital.</p>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <article class="p-6 bg-slate-800/30 rounded-lg">
+          <h3 class="font-semibold">Desenvolvimento de Software</h3>
+          <p class="mt-2 text-slate-300 text-sm">Aplicações web e mobile, arquitetura escalável, APIs e microsserviços.</p>
+        </article>
+        <article class="p-6 bg-slate-800/30 rounded-lg">
+          <h3 class="font-semibold">Plataformas SaaS</h3>
+          <p class="mt-2 text-slate-300 text-sm">Produtos voltados a assinaturas, com painéis administrativos e integrações seguras.</p>
+        </article>
+        <article class="p-6 bg-slate-800/30 rounded-lg">
+          <h3 class="font-semibold">Consultoria em IA</h3>
+          <p class="mt-2 text-slate-300 text-sm">Modelos de ML, automação inteligente e análises preditivas para tomada de decisão.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produto / Descrição do serviço -->
+  <section id="produto" class="max-w-6xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold">Descrição do Produto / Serviços</h2>
+    <div class="mt-4 text-slate-300 space-y-4">
+      <p><strong>InovaCode Suite</strong> — uma linha de produtos e serviços pensados para empresas que buscam digitalizar operações e obter vantagem competitiva. O portfólio inclui:</p>
+      <ul class="list-disc pl-6">
+        <li><strong>Plataforma SaaS para Gestão:</strong> painel administrativo, módulos de relatórios e integração com ERPs.</li>
+        <li><strong>Aplicativos sob medida:</strong> apps mobile e plataformas web para relacionamento com clientes e automação interna.</li>
+        <li><strong>APIs e Integrações:</strong> conectores para serviços de pagamento, CRMs e serviços em nuvem.</li>
+        <li><strong>Consultoria e POC em IA:</strong> análise de viabilidade, prototipagem e implantação de modelos preditivos.</li>
+        <li><strong>Suporte e SLA:</strong> planos de manutenção, monitoramento e atualizações regulares.</li>
+      </ul>
+      <p>Cada projeto é planejado com sprints ágeis, entregas incrementais e validação com o cliente em todas as etapas.</p>
+    </div>
+  </section>
+
+  <!-- Simulador de orçamento -->
+  <section id="simulador" class="bg-slate-900/40 border-t border-slate-800/50 py-12">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-2xl font-bold">Simulador de Orçamento Rápido</h2>
+      <p class="text-slate-300 mt-2">Use este simulador para obter uma estimativa básica do custo do projeto.</p>
+      <form id="simForm" class="mt-6 grid gap-4 md:grid-cols-2">
+        <label class="flex flex-col text-sm">
+          Tipo de Projeto
+          <select id="tipo" class="mt-2 p-3 rounded bg-slate-800/50">
+            <option value="site">Site Institucional</option>
+            <option value="app">Aplicativo Mobile</option>
+            <option value="saas">Plataforma SaaS</option>
+            <option value="api">Integração / API</option>
+          </select>
+        </label>
+        <label class="flex flex-col text-sm">
+          Complexidade
+          <select id="complexidade" class="mt-2 p-3 rounded bg-slate-800/50">
+            <option value="1">Baixa</option>
+            <option value="1.5">Média</option>
+            <option value="2">Alta</option>
+          </select>
+        </label>
+        <label class="flex flex-col text-sm">
+          Número de telas / páginas
+          <input id="telas" type="number" min="1" value="5" class="mt-2 p-3 rounded bg-slate-800/50" />
+        </label>
+        <label class="flex flex-col text-sm">
+          Prazo estimado (semanas)
+          <input id="prazo" type="number" min="1" value="6" class="mt-2 p-3 rounded bg-slate-800/50" />
+        </label>
+        <div class="md:col-span-2 flex gap-3 items-center">
+          <button type="button" id="calcular" class="px-5 py-3 bg-indigo-600 rounded">Calcular</button>
+          <div id="resultado" class="text-slate-300">&nbsp;</div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Chatbot (simples mock) -->
+  <section class="max-w-6xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold">Atendimento (chat)</h2>
+    <p class="text-slate-300 mt-2">Converse com nosso assistente virtual para tirar dúvidas rápidas.</p>
+    <div class="mt-4 grid md:grid-cols-3 gap-6">
+      <div class="md:col-span-2 p-6 bg-slate-800/30 rounded">
+        <div id="chatWindow" class="h-64 overflow-auto p-3 rounded bg-slate-900/20 text-sm text-slate-300">
+          <div class="text-slate-400">Assistente: Olá! Como posso ajudar você hoje?</div>
+        </div>
+        <div class="mt-3 flex gap-3">
+          <input id="chatInput" class="flex-1 p-3 rounded bg-slate-800/40" placeholder="Escreva uma pergunta rápida..." />
+          <button id="sendChat" class="px-4 py-2 bg-indigo-600 rounded">Enviar</button>
+        </div>
+      </div>
+      <aside class="p-6 bg-slate-800/20 rounded text-slate-300">
+        <h4 class="font-semibold">Atalhos</h4>
+        <ul class="mt-2 text-sm space-y-2">
+          <li>— Solicitar proposta</li>
+          <li>— Informações sobre SaaS</li>
+          <li>— Planos de suporte</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="bg-gradient-to-t from-transparent to-slate-950/40 border-t border-slate-800/50 py-12">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-start">
+      <div>
+        <h3 class="text-lg font-bold">Fale com a InovaCode</h3>
+        <p class="text-slate-300 mt-2">Preencha o formulário ou envie um e-mail para <strong>contato@inovacode.com</strong></p>
+        <address class="not-italic mt-4 text-slate-300 text-sm">
+          InovaCode — Rua Exemplo, 123 • São Paulo • SP
+        </address>
+      </div>
+      <form id="contactForm" class="space-y-3">
+        <input type="text" id="nome" placeholder="Nome" class="w-full p-3 rounded bg-slate-800/50" required />
+        <input type="email" id="email" placeholder="E-mail" class="w-full p-3 rounded bg-slate-800/50" required />
+        <textarea id="mensagem" rows="4" placeholder="Mensagem" class="w-full p-3 rounded bg-slate-800/50" required></textarea>
+        <button type="submit" class="px-5 py-3 bg-indigo-600 rounded">Enviar mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/50 py-6">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-400">
+      <div>© <span id="ano"></span> InovaCode. Todos os direitos reservados.</div>
+      <div class="flex gap-4">
+        <a href="#" class="hover:underline">Política de privacidade</a>
+        <a href="#" class="hover:underline">Termos</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts: simulador e chat mock -->
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+
+    // Simulador simples
+    document.getElementById('calcular').addEventListener('click', function(){
+      const tipo = document.getElementById('tipo').value;
+      const comp = parseFloat(document.getElementById('complexidade').value);
+      const telas = parseInt(document.getElementById('telas').value) || 1;
+      const prazo = parseInt(document.getElementById('prazo').value) || 1;
+
+      // Base por tipo
+      const baseMap = { site: 2000, app: 8000, saas: 15000, api: 5000 };
+      const base = baseMap[tipo] || 3000;
+
+      // Cálculo aproximado
+      const valor = Math.round(base * comp + telas * 300 + prazo * 200);
+
+      const resultado = document.getElementById('resultado');
+      resultado.innerHTML = `<strong>Estimativa:</strong> R$ ${valor.toLocaleString('pt-BR')} (valor aproximado)`;
+    });
+
+    // Chat mock (respostas básicas pré-programadas)
+    const send = document.getElementById('sendChat');
+    const chatInput = document.getElementById('chatInput');
+    const chatWindow = document.getElementById('chatWindow');
+
+    const respostas = {
+      'precos': 'Nossos preços variam conforme escopo. Use o simulador ou solicite uma proposta para valores detalhados.',
+      'saas': 'Oferecemos plataformas SaaS personalizadas com painéis administrativos e integrações. Podemos criar um MVP em 8-12 semanas.',
+      'suporte': 'Temos planos de suporte com SLAs que variam conforme prioridade. Podemos adaptar ao seu negócio.'
+    };
+
+    send.addEventListener('click', function(){
+      const q = chatInput.value.trim();
+      if(!q) return;
+      const userMsg = document.createElement('div');
+      userMsg.className = 'text-right text-slate-200 mt-2';
+      userMsg.textContent = 'Você: ' + q;
+      chatWindow.appendChild(userMsg);
+
+      // simples correspondência por palavra-chave
+      const key = Object.keys(respostas).find(k => q.toLowerCase().includes(k));
+      const resp = key ? respostas[key] : 'Obrigadx pelo contato! Um membro da nossa equipe retornará em até 1 dia útil. Para propostas imediatas, clique em "Solicitar proposta".';
+      const botMsg = document.createElement('div');
+      botMsg.className = 'text-left text-slate-400 mt-2';
+      botMsg.textContent = 'Assistente: ' + resp;
+      chatWindow.appendChild(botMsg);
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+      chatInput.value = '';
+    });
+
+    // contato - comportamento mock
+    document.getElementById('contactForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      alert('Obrigado! Sua mensagem foi enviada — responderemos em breve. (Formulário mock)');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
